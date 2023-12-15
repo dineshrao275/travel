@@ -1,5 +1,5 @@
 import React from "react";
-
+import flagImage from "../images/flag.png";
 var Footer = () => {
     return (
         // <!-- FOOTER SECTION STARTS -->
@@ -35,7 +35,7 @@ var Footer = () => {
                 </div>
 
                 <div class="flagContainer text-center">
-                    <img src="images/flag.png" />
+                    <img src={ flagImage } alt="flagImage" />
                 </div>
 
             </div>
